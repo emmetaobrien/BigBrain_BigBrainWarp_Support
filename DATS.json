@@ -26,9 +26,9 @@
 			"formats": [
 				"GIfTI"
             ],
-			"size" : 54,
+			"size" : 260.15,
 		        "unit" : {
-            			"value": "GB"
+            			"value": "MB"
 		        },
 			"access": {
 				"landingPage": "https://bigbrainproject.org",
@@ -115,7 +115,7 @@
 			"category": "files",
 			"values": [
 				{
-					"value": "125"
+					"value": "100"
 				}
 			]
 		},
