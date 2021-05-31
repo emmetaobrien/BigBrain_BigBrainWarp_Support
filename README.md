@@ -10,7 +10,7 @@ BigBrain is the digitized reconstruction of the hi-res histological sections
 
 ## Dataset content
 
-This dataset contains MSM spherical transformations to resample labels and fields between the BigBrain surface to/from 3 other major reference surfaces: FreeSurfer's fsaverage, Human Connectome Project's (HCP) fs_LR, and CIVET's MNI152. This dataset has been derived from the BigBrain release 2015 
+This dataset contains MSM spherical transformations to resample labels and fields between the BigBrain surface and 3 other major reference surfaces: FreeSurfer's fsaverage, Human Connectome Project's (HCP) fs_LR, and CIVET's MNI152. This dataset has been derived from the BigBrain release 2015 
 published in the [BigBrain Project website](https://bigbrainproject.org).
 
 Required files and some examples are provided here to illustrate how to use these transformations. Instructions are detailed to guide you through the conversion, mapping, and visualization steps. Using these examples, you should be able to resample any set of labels or field of your choosing (.annot, .label.gii, .shape.gii, .txt) between the BigBrain surface to/from the fsavg, fs_LR, and CIVET MNI152 surface templates. These transformations will also be included in the [BigBrainWarp Project](https://bigbrainwarp.readthedocs.io/en/latest/), a toolbox which aims to enable integration of BigBrain with neuroimaging and other neurobiological modalities.
