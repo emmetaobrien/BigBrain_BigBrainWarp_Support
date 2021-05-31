@@ -2,18 +2,18 @@
 
 ## BigBrain
 
-The BigBrain is the brain of a 65 years old man with no neurological or psychiatric
-diseases in clinical records at time of death. The brain was embedded in parafin and
+The BigBrain is the brain of a 65 year old man with no neurological or psychiatric
+diseases in clinical records at time of death. The brain was embedded in paraffin and
 sectioned in 7404 coronal histological sections (20 microns), stained for cell bodies.
-The BigBrain is the digitized reconstruction of the hi-res histological sections 
+BigBrain is the digitized reconstruction of the hi-res histological sections 
 (20 microns isotropic).
 
 ## Dataset content
 
-This dataset contains MSM spherical transformations to resample labels and fields between the BigBrain surace to/from 3 other mahor referece surfaces: FreeSurfer's fsaverage, Human Connectome Project's (HCP) fs_LR, and CIVET's MNI152. This dataset has been derived from the BigBrain release 2015 
+This dataset contains MSM spherical transformations to resample labels and fields between the BigBrain surface to/from 3 other major reference surfaces: FreeSurfer's fsaverage, Human Connectome Project's (HCP) fs_LR, and CIVET's MNI152. This dataset has been derived from the BigBrain release 2015 
 published in the [BigBrain Project website](https://bigbrainproject.org).
 
- The required files and some examples are provided here to illustrate how to use these transformations. Instructions are detailed to guide you through the conversion, mapping, and visualization steps. Using these examples, you should be able to resample any set of labels or field of your choosing (.annot, .label.gii, .shape.gii, .txt) between the BigBrain surface to/from the fsavg, fs_LR, and CIVET MNI152 surface templates. These transformations will also be included in the [BigBrainWarp Project](https://bigbrainwarp.readthedocs.io/en/latest/), a toolbox which aims to enable integration of BigBrain with neuroimaging and other neurobiological modalities.
+Required files and some examples are provided here to illustrate how to use these transformations. Instructions are detailed to guide you through the conversion, mapping, and visualization steps. Using these examples, you should be able to resample any set of labels or field of your choosing (.annot, .label.gii, .shape.gii, .txt) between the BigBrain surface to/from the fsavg, fs_LR, and CIVET MNI152 surface templates. These transformations will also be included in the [BigBrainWarp Project](https://bigbrainwarp.readthedocs.io/en/latest/), a toolbox which aims to enable integration of BigBrain with neuroimaging and other neurobiological modalities.
 
 You will need to install the following tools:
 
